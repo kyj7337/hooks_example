@@ -1,7 +1,7 @@
 ### 훅스를 쓰는 이유
 
 1. Hook는 계층 변화 없이 상태 관련 로직을 재사용할 수 있도록 도와줍니다.
-2. Class 에서 사용되는 this 가 혼동을 준다.[블로그](https://overreacted.io/ko/how-are-function-components-different-from-classes/), [예시(code sandbox)](https://codesandbox.io/s/pjqnl16lm7) this 로 부터 가져오는 혼동때문에 hooks 를 사용 ..
+2. Class 에서 사용되는 this 가 혼동을 준다.[블로그](https://overreacted.io/ko/how-are-function-components-different-from-classes/), [예시(code sandbox)](https://codesandbox.io/s/pjqnl16lm7) this 로 부터 가져오는 혼동때문에 hooks 를 사용
 
 ---
 
@@ -18,8 +18,6 @@
 - useEffect 는 기본적으로 렌더링 되고 난 직후마다 실행된다. 두번째 파라미터에 무엇을 넣는지에 따라 실행되는 조건 달라짐.
 
 ### - Hook의 변경이나 특정한 경우에만 필요함.
-
-useContext _// context 를 사용하는 경우에 사용_
 
 3. useReducer
 
@@ -57,3 +55,5 @@ useContext _// context 를 사용하는 경우에 사용_
 
 - React-dev-tool 에서 hooks 의 value 확인할 때 사용.
 - "./src/Component/UseDebugEx/img/debug.png" 캡처 사진 위치
+
+10. useContext

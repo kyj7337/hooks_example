@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const UseStateView = () => {
   // 1. useState의 괄호 에는 초기 state 값을 넣어준다.
-  // 2. state 는 state의 상태를 나타낸다.
+  // 2. 배열안의 state 는 해당 state의 상태를 나타낸다.
   // 3. setState 는 this.setState() 와 같은 역할을 한다.
   // 4. 여러개의 state 를 만들 때는, 여러 useState 를 사용한다.
 
